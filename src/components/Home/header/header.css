@@ -1,0 +1,30 @@
+.alianza_div{
+	padding: 0 !important;
+    max-height: 80vh;
+	overflow: hidden;
+	display: grid;
+}
+.container-fluid .alianza-banner{
+	max-inline-size: 100%;
+  	block-size: auto;
+	object-fit: contain !important;
+	/* aspect-ratio: 16/9; */
+}
+
+.alianza-banner,
+.btn-danger{
+	grid-area: 1/2;
+}
+.btn-danger{
+	align-self:center;
+	margin-left: 8rem;
+}
+
+@media (max-width :768px ){
+	.btn-danger{
+		margin-top: 20rem;
+		margin-left: auto;
+		margin-right: auto;
+		/* margin-left: 0; */
+	}
+}

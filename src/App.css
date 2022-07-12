@@ -1,0 +1,48 @@
+﻿@import url('./assets/fonts/fonts.css');
+:root {
+	--primary-color : #F24C5A;
+	--secondary-color : #FF5B4A;
+	--dark-blue : #023473;
+	--black : #0000;
+  --prima-gray: #526072;
+  --light-gray: #C6C6C6;
+	--black50 : #00000080;
+	--black04 : rgba(0,0,0,0.04);
+	--black16 :rgba(0,0,0,0.16);
+	--black24 : rgba(0,0,0,0.24);
+	--blackNav : #3d3d3d;
+  --coolvetica_rg : 'coolvetica_rg';
+  --Metropolis-Regular : 'Metropolis-Regular';
+}
+
+.metropolisReg{
+  font-family: var(--Metropolis-Regular) !important;
+}
+
+.fz16{
+  font-size: 1rem !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 160px !important; /* Height of the footer */
+  padding: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 160px; /* Set the fixed height of the footer here */
+}
+
+/* Override Bootstrap Styling */
+
+.btn-primary {
+  background-color: #025fce !important;
+}
+

@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'coolvetica_rg';
+	src: url('./coolvetica_rg-webfont.woff2') format('woff2'),
+		url('./coolvetica_rg-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Metropolis-Medium';
+	src: url('./Metropolis-Medium.woff') format("woff"),
+		url('./Metropolis-Medium.woff') format('woff');
+	font-style: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Metropolis-Regular';
+	src: url('./Metropolis-Regular.woff') format("woff"),
+		url('./Metropolis-Regular.woff') format('woff');
+	font-style: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Metropolis-Light';
+	src: url('./Metropolis-Light.woff') format("woff"),
+		url('./Metropolis-Light.woff') format('woff');
+	font-style: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Metropolis-Bold';
+	src: url('./Metropolis-Bold.woff') format("woff"),
+		url('./Metropolis-Bold.woff') format('woff');
+	font-style: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Metropolis-Black';
+	src: url('./Metropolis-Black.woff') format("woff"),
+		url('./Metropolis-Black.woff') format('woff');
+	font-style: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'lucida_grande';
+	src: url('./lucidagrande-webfont.woff2') format("woff"),
+		url('./lucidagrande-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

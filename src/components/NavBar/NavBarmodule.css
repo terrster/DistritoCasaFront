@@ -1,0 +1,76 @@
+.skipLink a {
+  position: absolute;
+  left: -100px;
+  top: -100px;
+}
+
+.skipLink a:focus {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.nav-logo{
+  max-height: 7rem;
+  width: auto;
+  margin-left: 1rem;
+}
+
+@media (max-width :768px ){
+  .nav-logo{
+    max-height: 6rem;
+    margin-left: 0;
+  }
+}
+
+.navbar-brand{
+  padding: 0 !important;
+}
+
+.nav-btn{
+  color: var(--blackNav) !important;
+  justify-content: center !important;
+}
+
+.nav-btn:hover {
+	color: var(--primary-color) !important;
+	opacity: 0.95;
+  }
+
+.nav-bar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  max-height: auto !important;
+}
+
+.pos-f-t{
+  max-inline-size: 100%;
+}
+
+.nav-btn.primary {
+	color: #fff !important;
+	-webkit-box-pack: center !important;
+	-ms-flex-pack: center !important;
+	justify-content: center !important;
+	background: var(--primary-color) !important;
+	width: 200px;
+	font-weight: bold;
+	font-family: 'Metropolis-Regular';
+  border: none !important;
+  border-radius: 5rem !important;
+  font-weight: 700 !important;
+  box-shadow: 0 10px 20px 0 rgba(1,1,1,.2);
+  transition: ease-in-out .3s;
+  }
+  
+  .nav-btn.primary:hover {
+	-webkit-box-pack: center !important;
+	-ms-flex-pack: center !important;
+	justify-content: center !important;
+	background: #023473!important;
+	color: #fff !important;
+  }

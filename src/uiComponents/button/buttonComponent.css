@@ -1,0 +1,16 @@
+.buttonHE{
+    width: 20rem !important;
+    border-radius: 5rem !important;
+    background-color: #F24C5A !important;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.6);
+    font-family: var(--Metropolis-Regular) !important;
+    font-weight: 700 !important;
+    border: none !important;
+    font-size: 1.225rem !important;
+}
+
+@media (max-width :768px ){
+    .buttonHE{
+        width: 15rem !important;
+    }
+}
